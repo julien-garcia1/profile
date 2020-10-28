@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@900&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #EEEEEE;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+}
+
+h2 {
+  color: #6B72E1;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+hr {
+  width: 50%;
+  border-top: 2px solid #DFDFDF;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px
+}
+
+.img-circle {
+  width:80px;
+  border-radius: 50%;
+  padding-bottom: 15px
+}
+
+.card p {
+  padding-bottom: 25px
+}
+
+.card {
+  background: white;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  width: 60%;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  font-size: 38px;
+  padding: 20px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.btn-grey {
+  background: #6B72E1;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.btn-grey:hover {
+  background: white;
+  border: solid 2px #6B72E1;
+  color: #6B72E1
+}
+
+.fa-envelope {
+  padding-right: 16px;
+  font-size: 17px
+}
+
+.fa-laptop, .fa-bullseye, .fa-futbol {
+  padding-left: 16px;
+  font-size: 25px;
+  color: #6B72E1;
+}
+
+.fa-linkedin {
+  color: #2867B2;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-facebook {
+  color: #4267B2;
+}
+
+/* #display-columns-inline {
+  display: flex;
+  justify-content: space-between;
+} */
